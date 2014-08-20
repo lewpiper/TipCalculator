@@ -13,7 +13,7 @@ var tip = preTax*tipAmount
 var total = preTax + tax + tip
 
 
-//Print with formatting for user
+//Print with formatting for user in dollars
 println(String(format: "%@%.2f", "Your tax will be: $", tax))
 println(String(format: "%@%.2f", "Your tax will be: $", tip))
 println(String(format: "%@%.2f", "Your tax will be: $", total))
